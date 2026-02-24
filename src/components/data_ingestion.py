@@ -14,6 +14,7 @@ from src.utils.logger import get_logger
 logger = get_logger(__name__)
 
 
+
 def ingest_data(csv_path: Path | None = None) -> pd.DataFrame:
     """
     Read the email dataset CSV.
