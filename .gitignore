@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts (large files)
+outputs/models/*.joblib
+outputs/vectorizers/*.joblib
+outputs/metrics/*.json
+outputs/metrics/*.csv
+logs/*.log
+
+# Data (keep sample, ignore large datasets)
+data/raw/*
+data/processed/*
+data/dataset/*
+!data/sample/
+!data/sample/*
+
+# Misc
+*.mbox
+.env
